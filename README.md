@@ -45,7 +45,7 @@ local enviroment:
 # Design
 
 ## System Architecture
-![System Architecture](resources/archit.png)
+![System Architecture](resources/architecture.png)
 
 ### Scalability Design
 - Horizontal Scaling: multi-translate-service is stateless service, can scale out or scale in on demand.multi celery worker use same broker queue without duplicate task cosumption.
